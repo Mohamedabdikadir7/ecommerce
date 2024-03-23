@@ -1,0 +1,163 @@
+img {
+    /* Apply styles to make the image round and small */
+
+    width: 80px; /* Adjust the width as needed */
+    height: 70px; /* Adjust the height as needed */
+    border-radius: 30%; /* Make the image round */
+   
+}
+
+.upper {
+    /* Add margin-bottom to create space between upper section and navbar */
+    margin-bottom: 80px; /* Adjust this value as needed */
+}
+
+.navbar {
+    /* Optionally, you can add padding-top to the navbar to create space between the upper section and navbar items */
+    padding-top: 20px; /* Adjust this value as needed */
+    /* Your other navbar styles */
+}
+.ut {
+    float: right;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin: 20px;
+   
+}
+
+.search-container {
+    display: flex;
+    margin: -30px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Style for the search input */
+.search-container input[type="search"] {
+    padding: 10px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 5px;
+    outline: none;
+}
+
+.search-container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Hover effect for the search button */
+.search-container button[type="submit"]:hover {
+    background-color: #ebebeb;
+    border-color: #0edb18;
+}
+
+
+
+.navbar {
+    display: flex;
+    padding: 25px 0; /* Adjust top and bottom padding */
+    margin: 40px 0;
+    background-color: lightblue;
+    border-radius: 10px;
+    justify-content: space-around; /* Adjust the alignment */
+    padding-top: 20px;
+    
+}
+
+.navbar h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar h3 a {
+    text-decoration: none;
+    color: black; /* Set the default text color */
+}
+
+.navbar h3 a:hover {
+    background-color: rgb(106, 233, 22); /* Set the background color on hover */
+}
+.ad img {
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    object-fit: cover; /* Ensures the image covers the entire container */
+    object-position: center; /* Centers the image within the container */
+    border-radius: 0; /* Removes any rounded corners */
+}
+.products-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow products to wrap to the next line if they exceed container width */
+    margin-bottom: 15px;
+    margin-left: 20px;
+    
+    
+}
+
+.products {
+    display: inline-block; /* Display products inline */
+    padding: 41px;
+    margin: 0 10px 10px 0; /* Add margin between products */
+}
+
+.product4 {
+    width: 180px;
+    height: 180px;
+    margin-right: 20px; /* Add spacing between image and details */
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.details h3 {
+    margin: 0; /* Remove default margins for better spacing */
+}
+
+.details p {
+    margin: 5px 0; /* Add some vertical spacing for price */
+}
+
+.details button {
+    padding: 3px 7px; /* Add some padding to the button */
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: rgb(11, 4, 31);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}
+.products:hover {
+    transform: translateY(-5px); /* Move the product up by 5px when hovered */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Add shadow effect */
+}
+
+.product4:hover {
+    transform: translateY(-5px); /* Move the product up by 5px when hovered */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Add shadow effect */
+}
+
+
+
+.ty {
+    background-color: lightblue; /* Set background color to light blue */
+    text-align: center; /* Center text horizontally */
+    padding: 10px; /* Add padding for spacing */
+    margin-bottom: 10px; /* Add margin to separate from other elements */
+    display: block; /* Make it a block-level element */
+    width: 100%; /* Set the width to fill the horizontal space */
+    margin-left: auto; /* Ensure it starts at the left edge */
+    margin-right: auto; /* Ensure it ends at the right edge */
+}
